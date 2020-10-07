@@ -2,9 +2,9 @@ printf "Downlaoding"
 apt-get install wget -y 
 apt-get install git -y 
 apt-get install golang -y 
-apt-get install python
-apt-get install python2 
-apt-get install python3 >
+apt-get install python -y
+apt-get install python2  -y
+apt-get install python3 -y
 wget https://github.com/shifa123/chaos-hunt/blob/master/chaos-hunt.sh 
 mkdir chaos
 mv chaos-hunt.sh chaos.sh
