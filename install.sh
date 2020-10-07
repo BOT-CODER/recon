@@ -6,7 +6,7 @@ apt-get install golang -y
 apt-get install python -y
 apt-get install python2  -y
 apt-get install python3 -y
-wget https://github.com/shifa123/chaos-hunt/blob/master/chaos-hunt.sh 
+wget https://raw.githubusercontent.com/shifa123/chaos-hunt/master/chaos-hunt.sh
 mkdir chaos
 mv chaos-hunt.sh chaos.sh
 chmod +x chaos.sh
