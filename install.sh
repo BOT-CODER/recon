@@ -1,3 +1,4 @@
+#!/bin/bash
 printf "Downlaoding"
 apt-get install wget -y 
 apt-get install git -y 
