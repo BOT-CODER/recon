@@ -9,12 +9,12 @@ wget https://github.com/shifa123/chaos-hunt/blob/master/chaos-hunt.sh
 mkdir chaos
 mv chaos-hunt.sh chaos.sh
 chmod +x chaos.sh
-cp chaos.sh /chaos
+cp chaos.sh chaos
 rm -rf chaos.sh
-git clone https://github.com/Edu4rdSHL/findomain.git 
-cd findomain
-cargo build --release
-sudo cp target/release/findomain /usr/bin/
+wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-linux 
+mv findomain-linux findomain
+chmod +x findomain
+cp findomain /usr/bin/
 rm -rf findomain
 cd
 go env -w GOPATH=$HOME/go
@@ -26,6 +26,5 @@ cp go/bin/* /usr/bin
 rm -rf go
 wget https://github.com/BOT-CODER/recon/blob/main/recon
 chmod +x recon
-cp recon /usr/bin
 printf "Completed"
 
